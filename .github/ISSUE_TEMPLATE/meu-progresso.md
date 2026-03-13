@@ -1,9 +1,8 @@
 ---
 name: Iniciar meu Curso (Rastreador de Progresso)
 about: Crie seu diário de bordo e acompanhe suas aulas
-title: 'Progresso do Aluno: [SEU NOME AQUI]'
+title: "Meu Progresso - NOME"
 labels: ['aluno', 'progresso']
-assignees: ''
 ---
 
 ## Bem-vindo(a) ao seu Rastreador de Progresso!
