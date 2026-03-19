@@ -1,6 +1,6 @@
-site_name: Universidade de Ciência da Computação
+site_name: Ciência da Computação
 site_url: https://NandesLima.github.io/ciencia-da-computacao/
-site_description: Um currículo 100% gratuito e autodidata em Computer Science, do básico aos algoritmos avançados e IA, unificando trilhas universitárias e crash-courses (cursos livres).
+site_description: Um caminho open-source para educação autodidata em Ciência da Computação.
 theme:
   name: material
   features:
@@ -8,6 +8,8 @@ theme:
     - navigation.top
     - search.suggest
     - search.highlight
+    - navigation.tabs
+    - navigation.expand
   palette:
     - scheme: slate
       primary: black
@@ -19,19 +21,11 @@ theme:
 extra_css:
   - stylesheets/custom.css
   - stylesheets/global-modern.css
-extra_javascript:
-  - javascripts/progress.js
 
 nav:
-  - 'Técnicas de estudo, organização e aprendizagem': 01-tecnicas-de-estudo-organizacao-e-aprendizagem.md
-  - 'Git e GitHub': 02-git-e-github.md
-  - 'Introdução à Computação': 03-introducao-à-computacao.md
-  - 'Aprofundamento de Conceitos Introdutórios': 04-aprofundamento-de-conceitos-introdutorios.md
-  - 'Desenvolvimento Técnico': 05-desenvolvimento-tecnico.md
-  - 'Desenvolvimento Teórico': 06-desenvolvimento-teorico.md
-  - 'Aprofundamento Técnico': 07-aprofundamento-tecnico.md
-  - 'Tópicos Finais': 08-topicos-finais.md
-  - 'Especializações': 09-especializacões.md
+  - 'Início': index.md
+  - 'Currículo': README.md
+  - 'Sobre': README.md
 
 markdown_extensions:
   - pymdownx.highlight
