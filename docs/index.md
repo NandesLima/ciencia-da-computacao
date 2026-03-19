@@ -1,47 +1,26 @@
-<div class="modern-landing">
+---
+hide:
+  - navigation
+  - toc
+---
 
-  <!-- Hero Section -->
+<div class="modern-landing">
   <section class="hero">
     <div class="hero-content">
-      <h1 class="hero-title">
-        Ciência da<span>Computação</span>
-      </h1>
-      <p class="hero-subtitle">
-        Um caminho open-source para educação autodidata em Ciência da Computação, com cursos das melhores universidades do mundo.
-      </p>
-      <div class="hero-actions">
-        <a href="README/" class="btn btn-primary">Começar a Aprender</a>
-      </div>
+      <h1 class="hero-title">Universidade de <span>Computer Science</span></h1>
+      <p class="hero-subtitle">Um currículo 100% gratuito e autodidata em Computer Science, do básico aos algoritmos avançados e IA, unificando trilhas universitárias e crash-courses (cursos livres).</p>
+      <a href="01-tecnicas-de-estudo-organizacao-e-aprendizagem/" class="btn btn-primary">Iniciar Formação</a>
     </div>
     <div class="hero-visual">
       <div class="hero-img-container">
-        <img src="assets/ai-landing.jpg" alt="Ciência da Computação Visual">
+        <!-- Matrix/Code image -->
+        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80" alt="Code">
       </div>
     </div>
   </section>
 
-  <!-- O MÉTODO Section -->
-  <section class="info-section">
-    <span class="section-tag">O MÉTODO</span>
-    <div class="grid">
-      <div class="card">
-        <h3>🎓 100% Gratuito</h3>
-        <p>Conteúdo curado das melhores universidades e plataformas abertas do mundo.</p>
-      </div>
-      <div class="card">
-        <h3>📈 Do Básico ao Avançado</h3>
-        <p>Do Ensino Médio até Tópicos Avançados de Ciência da Computação e Engenharia de Software.</p>
-      </div>
-      <div class="card">
-        <h3>🎯 Gamificado</h3>
-        <p>Acompanhe seu progresso módulo a módulo com nosso rastreador integrado no GitHub.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- A ARQUITETURA Section -->
-  <section class="info-section">
-    <span class="section-tag">A ARQUITETURA</span>
+  <section class="features">
+    <span class="section-tag">A Arquitetura</span>
     <div class="grid">
       <div class="card">
         <h3>📚 Duas Velocidades</h3>
@@ -49,13 +28,12 @@
       </div>
       <div class="card">
         <h3>💻 Foco no Código</h3>
-        <p>Estruturas de Dados, Algoritmos, Compiladores e Sistemas Operacionais. Formação completa de ponta a ponta.</p>
+        <p>Estruturas de Dados, Algoritmos, IA, Banco de Dados e Redes. Formação completa de ponta a ponta.</p>
       </div>
       <div class="card">
-        <h3>⚙️ Rastreador Local</h3>
-        <p>Um sistema de ✅ Concluído inteligente embutido nas tabelas que salva seu progresso offline no próprio navegador.</p>
+        <h3>🎯 Rastreador Local</h3>
+        <p>Um sistema de <b>✅ Concluído</b> inteligente embutido nas tabelas que salva seu progresso offline no próprio navegador.</p>
       </div>
     </div>
   </section>
-
 </div>
